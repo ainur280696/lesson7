@@ -1,0 +1,83 @@
+body{
+    max-width: 500px;
+    margin: 0 auto;
+}
+.block-1{
+    background: red;
+}
+.block-2{
+    background-image: url('../img/flowers.jpg');
+}
+.block-3{
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+}
+.block-4{
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+.block-5{
+    background: url('../img/dino.png');
+    background-repeat: repeat-x;
+}
+.block-6{
+    background-image: url('../img/donut.jpg');
+    background-repeat: repeat-y;
+}
+.block-7{
+    background-image: url('../img/donut.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.block-8{
+    background-image: url('../img/donut.jpg');
+    background-repeat: no-repeat;
+    background-position: 50px 10px;
+}
+.block-9{
+    background-image: url('../img/girl.webp');
+    background-attachment: fixed;
+}
+.block-10{
+    background-image: url('../img/girl.webp');
+    background-attachment: local;
+}
+.block-11{
+    background-image: url('../img/castle.jpg');
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: 100% auto;
+}
+.block-12{
+    background-image: url('../img/castle.jpg');
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: auto 100%;
+}
+.block-13{
+    background-image: url('../img/castle.jpg');
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: 100% 100%;
+}
+.block-14{
+    background-image: url('../img/castle.jpg');
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: contain;
+}
+.block-15{
+    background-image: url('../img/castle.jpg');
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+}
+.block-16{
+    background-image: url('../img/castle.jpg');
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: 200px 300px;
+}
+.block-17{
+    background-color: rgb(0, 140, 255);
+    background-image: url('../img/donut.jpg');
+    background-repeat: no-repeat;
+}
